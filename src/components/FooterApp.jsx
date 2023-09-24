@@ -3,7 +3,7 @@ import React from 'react'
 const FooterApp = () => {
   return (
    
-    <div className="container bg-dark text-white p-5 container-fluid">
+    <div className="bg-dark text-white p-5 container-fluid">
       <div className="row">
  
         <div className="col-md-6 text-center mb-3">
@@ -17,11 +17,11 @@ const FooterApp = () => {
 
         <div className="col-12 mb-5">
           <div className="text-center">
-            {/* <a href="https://api.whatsapp.com/send?phone=0123456789" target="_blank"> */}
+            <a href="https://api.whatsapp.com/send?phone=0123456789" target="_blank">
               <i className="fa fa-whatsapp fa-4x mb-2" aria-hidden="true"></i>
               <h5 className='fw-bolder'>Escríbenos por WhatsApp</h5>
               <p>Para comunicarte con un representante</p>
-            {/* </a> */}
+            </a>
           </div>
         </div>
 
